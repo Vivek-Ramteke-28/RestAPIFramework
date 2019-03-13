@@ -12,6 +12,7 @@ public class TestBase {
 	public int RESPONSE_STATUS_CODE_400 = 400;
 	public int RESPONSE_STATUS_CODE_401 = 401;
 	public int RESPONSE_STATUS_CODE_201 = 201;
+	public int RESPONSE_STATUS_CODE_202 = 202;
 	
 	
 	public static Properties prop;
