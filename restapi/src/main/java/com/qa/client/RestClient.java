@@ -16,9 +16,7 @@ import org.apache.http.impl.client.HttpClients;
 
 public class RestClient {
 	
-
 	
-		
 		//1. GET method without Headers
 		
 		public CloseableHttpResponse get(String url) throws ClientProtocolException, IOException
@@ -49,8 +47,7 @@ public class RestClient {
 		
 		
 		//3. POST Method
-		
-		
+				
 		public CloseableHttpResponse post(String url, String entityString, HashMap<String, String> headerMap) throws ClientProtocolException, IOException
 		{
 			CloseableHttpClient httpClient	= HttpClients.createDefault();
